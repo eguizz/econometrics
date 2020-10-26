@@ -54,7 +54,7 @@ set.seed(1211);
 #setwd()                    # set working directory
 
 ## Set Clusters [INPUT 2/10]
-num_clusters <- 4           # number of clusters for parallel procesing
+num_clusters <- 4           # number of clusters for parallel processing
 cl   <- makeCluster(num_clusters, outfile="")
 registerDoParallel(cl)
 
@@ -98,7 +98,7 @@ if(tog_fe_change == 1){
     tog_cluster <- 0
     var_cluster <- "cluster"
 }
-if(tog_cluster == 0){ var_clister <- ""}
+if(tog_cluster == 0){ var_cluster <- ""}
 
 ## Additional Control Variables (Change if Necessary) [INPUT 9/10]
 tog_var_add_change  <- 0                         # if like to change additional variables, set to 1
